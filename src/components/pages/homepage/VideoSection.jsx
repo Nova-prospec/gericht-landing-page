@@ -1,7 +1,7 @@
 const VideoSection = () => {
     return (
         <section>
-            <img src="assets/video.svg" alt="Video Section" />
+            <img src="assets/video.jpg" alt="Video Section" />
         </section>
     )
 }

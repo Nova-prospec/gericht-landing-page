@@ -28,7 +28,7 @@ const AwardSection = () => {
         <article className="flex-row-reverse gap-3 flex mb-6 lg:flex-col lg:gap-6">
           <div className="flex gap-2">
             <img
-              src="assets/award-1.svg"
+              src="assets/award-1.png"
               className="sm:w-[2.8rem]"
               alt="Award Number"
             />
@@ -41,7 +41,7 @@ const AwardSection = () => {
           </div>
           <div className="flex gap-2">
             <img
-              src="assets/award-2.svg"
+              src="assets/award-2.png"
               className="sm:w-[2.8rem]"
               alt="Award Number"
             />
@@ -56,7 +56,7 @@ const AwardSection = () => {
         <article className="flex-row-reverse flex gap-3 lg:flex-col lg:gap-6">
           <div className="flex gap-2">
             <img
-              src="assets/award-3.svg"
+              src="assets/award-3.png"
               className="sm:w-[2.8rem]"
               alt="Award Number"
             />
@@ -71,7 +71,7 @@ const AwardSection = () => {
           </div>
           <div className="flex gap-2">
             <img
-              src="assets/award-5.svg"
+              src="assets/award-5.png"
               className="sm:w-[2.8rem]"
               alt="Award Number"
             />
