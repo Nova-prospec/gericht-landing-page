@@ -4,7 +4,7 @@ const FounderSection = () => {
             <div>
                 <img src="assets/founder-image.jpg" className="w-[80%]" alt="Gericht Founder" />
             </div>
-            <article className="text-left flex-[0.8] lg:text-center">
+            <article className="text-left lg:text-center">
                 <div>
                     <h3 className="text-white font-cormorant text-lg font-modify">Chef's Word</h3>
                     <div className="w-full grid place-items-start lg:place-items-center"><img src="assets/green-line.svg" className="text-center" alt="" /></div>
