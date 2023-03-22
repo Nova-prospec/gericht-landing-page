@@ -32,6 +32,10 @@ const Header = () => {
             path: "/landing",
             name: "Landing"
         },
+        {
+            path: "/saved-foods",
+            name: "Saved Foods"
+        }
     ]
     const [match, setMatch] = useState(window.matchMedia("(max-width: 900px)").matches)
 
