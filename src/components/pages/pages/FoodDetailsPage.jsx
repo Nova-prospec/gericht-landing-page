@@ -6,6 +6,7 @@ const FoodDetailsPage = ({cart, setCart}) => {
   const { id } = useParams();
   const [foodDetail, setFoodDetail] = useState(null);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false)
   
   let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
@@ -27,6 +28,8 @@ const FoodDetailsPage = ({cart, setCart}) => {
   }
   useEffect(() => {
     const abortController = new AbortController();
+
+    setLoading(true)
     fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`, {
       signal: abortController.signal,
     })
@@ -40,13 +43,15 @@ const FoodDetailsPage = ({cart, setCart}) => {
       .then((data) => {
         setFoodDetail(data.meals);
         setError(null)
+        setLoading(false)
       })
       .catch((err) => {
         // check if the type of error is an abort error
         if (err.name == "AbortError") {
           console.error("Fetch Aborted");
+          setLoading(false)
         }else{
-
+          setLoading(false)
           setError(err.message);
         }
       });
@@ -62,11 +67,11 @@ const FoodDetailsPage = ({cart, setCart}) => {
   if (error) {
     return (
       <section className="bg-primary-black py-6 px-5">
-        <p className="text-white">{error}</p>
+        <p className="text-white font-open-sans">{error}</p>
       </section>
     )
-
   }
+ 
   return (
     <section className="bg-primary-black py-6 px-5">
        <div className="flex w-min items-center gap-3">
@@ -77,7 +82,7 @@ const FoodDetailsPage = ({cart, setCart}) => {
        
         Meal details
       </h1>
-
+      {loading === true && (<p className="text-white font-open-sans">Loading...</p>)}
       {foodDetail &&
         foodDetail.map((detail) => {
           return (
@@ -120,8 +125,8 @@ const FoodDetailsPage = ({cart, setCart}) => {
                   }
                   return (
                     <div key={detail?.[`strIngredient${number}`]} className="flex justify-between py-4 px-3 border-solid border-white border ">
-                      <p className="text-white capitalize">{detail?.[`strIngredient${number}`]}</p>
-                      <p className="text-white">{detail?.[`strMeasure${number}`]}</p>
+                      <p className="text-white capitalize font-open-sans">{detail?.[`strIngredient${number}`]}</p>
+                      <p className="text-white font-open-sans">{detail?.[`strMeasure${number}`]}</p>
                     </div>
                   )
                 })
