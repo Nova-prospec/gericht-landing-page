@@ -20,7 +20,7 @@ const AboutSection = () => {
                     
                     </motion.button>
                 </article>
-                <div><img src="assets/knife.svg" className="lg:hidden" alt="Knife Background" /></div>
+                <div><img src="assets/knife.webp" className="lg:hidden" alt="Knife Background" /></div>
                 <article className="text-left">
                     <h2 className="text-3xl mb-4 text-primary-green font-cormorant">Our History</h2>
                     <img className="w-min mb-2 right-0" src="assets/green-line.svg" alt="" />

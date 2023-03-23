@@ -25,7 +25,7 @@ module.exports = {
         "almost-white": "#F5F5F5"
       },
       backgroundImage: {
-        "dark-bg": "url('/assets/bg-dark.jpg')"
+        "dark-bg": "url('/assets/bg-dark.webp')"
       },
       content: {
         "quotes": "url(/assets/quotes.svg)"

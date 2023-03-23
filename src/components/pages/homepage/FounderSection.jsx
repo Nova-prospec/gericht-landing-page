@@ -2,7 +2,7 @@ const FounderSection = () => {
     return (
         <section className="bg-dark-bg bg-center gap-4 mx-auto bg-no-repeat py-28 bg-cover flex px-8 justify-center items-center lg:flex-col-reverse lg:px-5 md:text-center">
             <div>
-                <img src="assets/founder-image.jpg" className="w-[80%]" alt="Gericht Founder" />
+                <img src="assets/founder-image.webp" className="w-[80%]" alt="Gericht Founder" />
             </div>
             <article className="text-left lg:text-center">
                 <div>

@@ -41,7 +41,7 @@ const HomePage = () => {
                     </motion.button></Link>
                 </article>
                 <div>
-                    <img className="max-w-sm md:w-full" src="assets/hero-img.jpg" alt="" />
+                    <img className="max-w-sm md:w-full" src="assets/hero-img.webp" alt="" />
                 </div>
                 <motion.div className="flex flex-col items-center sm:hidden gap-1 absolute bottom-10 right-8">
                     <img src="assets/dark-green-line.svg" className="w-min" alt="" />

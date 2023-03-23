@@ -29,7 +29,7 @@ const AwardSection = () => {
           <div className="flex gap-2">
             <img
               src="assets/award-1.png"
-              className="sm:w-[2.8rem]"
+              className="sm:w-[2.8rem] aspect-square"
               alt="Award Number"
             />
             <div>
@@ -42,7 +42,7 @@ const AwardSection = () => {
           <div className="flex gap-2">
             <img
               src="assets/award-2.png"
-              className="w-[5rem] sm:w-[2.8rem]"
+              className="w-[5rem] sm:w-[2.8rem] aspect-square"
               alt="Award Number"
             />
             <div>
@@ -57,7 +57,7 @@ const AwardSection = () => {
           <div className="flex gap-2">
             <img
               src="assets/award-3.png"
-              className="sm:w-[2.8rem] w-[5rem]"
+              className="sm:w-[2.8rem] w-[5rem] aspect-square"
               alt="Award Number"
             />
             <div>
@@ -72,7 +72,7 @@ const AwardSection = () => {
           <div className="flex gap-2">
             <img
               src="assets/award-5.png"
-              className="w-[5rem] sm:w-[2.8rem]"
+              className="w-[5rem] sm:w-[2.8rem] aspect-square"
               alt="Award Number"
             />
             <div>
@@ -91,7 +91,7 @@ const AwardSection = () => {
           G
         </p>
         <img
-          src="assets/award-image.jpg"
+          src="assets/award-image.webp"
           className="w-full sm:w-[90%]"
           alt="Award IMage"
         />

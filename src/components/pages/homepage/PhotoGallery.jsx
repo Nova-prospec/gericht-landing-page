@@ -18,10 +18,10 @@ const PhotoGallerySection = () => {
                     </motion.button></div>
             </div>
             <div className="flex h-full mr-56 gap-3 lg:grid lg:mr-0 lg:grid-cols-1">
-                <img src="assets/gallery-img-1.jpg" className="w-[200px] h-full" alt="Gallery Photo" />
-                <img src="assets/gallery-img-2.jpg" className="w-[200px] h-full" alt="Gallery Photo" />
-                <img src="assets/gallery-img-3.jpg" className="w-[200px] h-full" alt="Gallery Photo" />
-                <img src="assets/gallery-img-4.png" className="w-[200px] h-full" alt="Gallery Photo" />
+                <img src="assets/gallery-img-1.webp" className="w-[200px] h-full" alt="Gallery Photo" />
+                <img src="assets/gallery-img-2.webp" className="w-[200px] h-full" alt="Gallery Photo" />
+                <img src="assets/gallery-img-3.webp" className="w-[200px] h-full" alt="Gallery Photo" />
+                <img src="assets/gallery-img-4.webp" className="w-[200px] h-full" alt="Gallery Photo" />
             </div>
         </section>
     );

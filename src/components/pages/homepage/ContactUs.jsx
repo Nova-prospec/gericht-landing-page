@@ -19,7 +19,7 @@ const ContactUs = () => {
                     
                     </motion.button></div>
             </div>
-            <img src="assets/contact-us.jpg" className="w-[35%] sm:w-[90%]"  alt="Contact Gericht" />
+            <img src="assets/contact-us.webp" className="w-[35%] sm:w-[90%]"  alt="Contact Gericht" />
         </section>
      );
 }

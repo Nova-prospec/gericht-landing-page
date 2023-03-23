@@ -62,7 +62,7 @@ const FoodSpecialSection = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="assets/drinks.jpg" loading="lazy" alt="Drinks" />
+                    <img src="assets/drinks.webp" loading="lazy" alt="Drinks" />
                 </div>
                 <div className="flex flex-col gap-3">
                         <div className="flex items-center gap-8 md:gap-2">

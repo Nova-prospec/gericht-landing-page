@@ -1,8 +1,8 @@
 const VideoSection = () => {
     return (
         <section>
-            <img src="assets/video.jpg" alt="Video Section" />
+            <img src="assets/video.webp" alt="Video Section" />
         </section>
     )
 }
-export default VideoSection
+export default VideoSection;
