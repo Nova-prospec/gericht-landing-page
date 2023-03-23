@@ -20,7 +20,7 @@ const SavedFoods = ({cart, setCart}) => {
     if (cart.length == 0) {
         return (
             <section className="bg-primary-black py-6 px-5">
-                <h1 className="text-white font-cormorant text-[2rem]">Saved Items</h1>
+                <h1 className="text-white font-cormorant text-[2rem]">Saved Foods</h1>
                 <p className="text-primary-grey font-open-sans italic">You have no saved items.</p>
             </section>
         )
