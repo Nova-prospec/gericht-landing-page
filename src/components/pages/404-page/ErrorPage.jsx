@@ -1,6 +1,13 @@
 import {motion } from "framer-motion"
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 const ErrorPage = () => {
+    
+    useEffect(()=> {
+
+        document.title = "Gericht | Error"
+    }, [])
+    
     return ( 
         <section className="bg-primary-black px-5 py-10 h-[60vh] text-center">
             <h1 className="font-cormorant text-primary-green font-bold text-[6rem] ">404</h1>
